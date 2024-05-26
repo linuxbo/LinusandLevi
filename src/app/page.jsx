@@ -142,12 +142,12 @@ const team = [
     people: [
       {
         name: 'Linus Chan',
-        role: 'Lead Servant / CEO',
+        role: 'E-bike Poser / Cofounder',
         image: { src: imageLinusChan },
       },
       {
         name: 'Levi Prestegard',
-        role: 'Chief Biker / CEO',
+        role: 'Chief Biker / Cofounder',
         image: { src: imageLeviPrestegard },
       },
  

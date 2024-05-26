@@ -74,7 +74,7 @@ function CaseStudies({ caseStudies }) {
       >
         <p>
           We believe technology is not the answer to the world’s greatest
-          challenges. Let's just go outside and have some fun!s
+          challenges. Let's just go outside and have some fun!
         </p>
       </SectionIntro>
 

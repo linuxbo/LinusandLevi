@@ -25,6 +25,8 @@ import imageDriesVincent from '@/images/team/dries-vincent.jpg'
 import imageLeviPrestegard from '@/images/team/levi-prestegard.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 
+
+
 const clients = [
   ['Phobia', logoPhobiaLight],
   ['Family Fund', logoFamilyFund],
@@ -77,7 +79,7 @@ function CaseStudies({ caseStudies }) {
           challenges. Let's just go outside and have some fun!
         </p>
       </SectionIntro>
-
+      
 
  
     </>

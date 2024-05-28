@@ -86,7 +86,7 @@ function CaseStudies({ caseStudies }) {
               href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start"
               className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-                Book a tour!
+                Book a tour
             </a>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default async function Home() {
             Bicycle tours in Minnesota.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          We're two University of Minnesota alumni who live and breathe biking. Let us be your guides to the best-kept secrets of Minneapolis and beyond, from hidden urban trails to epic up-north escapades.</p>
+          We're two University of Minnesota alumni who love biking. Let us be your guides to the best-kept secrets of Minneapolis and beyond, from beautiful urban trails to epic up-north escapades.</p>
 
         </FadeIn>
       </Container>

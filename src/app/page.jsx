@@ -79,12 +79,24 @@ function CaseStudies({ caseStudies }) {
           challenges. Let's just go outside and have some fun!
         </p>
       </SectionIntro>
-      
-
+    <div className="bg-white">
+         <div className="mx-auto max-w-2xl text-center">
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start"
+              className="rounded-md bg-black px-20 py-10 text-4xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            >
+                Book a tour!
+            </a>
+          </div>
+        </div>
+      </div>
  
+
     </>
   )
 }
+ 
 
 function Services() {
   return (
@@ -229,6 +241,7 @@ export default async function Home() {
       </Container>
       <Team />
       <CaseStudies caseStudies={caseStudies} />
+ 
      </>
   )
 }

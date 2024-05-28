@@ -711,7 +711,34 @@ video {
 /*!***********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/components.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************/
-
+.container{
+    width: 100%
+}
+@media (min-width: 640px){
+    .container{
+        max-width: 640px
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 768px
+    }
+}
+@media (min-width: 1024px){
+    .container{
+        max-width: 1024px
+    }
+}
+@media (min-width: 1280px){
+    .container{
+        max-width: 1280px
+    }
+}
+@media (min-width: 1536px){
+    .container{
+        max-width: 1536px
+    }
+}
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/utilities.css ***!
@@ -879,6 +906,9 @@ video {
 .mt-px {
     margin-top: 1px
 }
+.mt-32 {
+    margin-top: 8rem
+}
 .block {
     display: block
 }
@@ -902,6 +932,10 @@ video {
 }
 .aspect-\[719\/680\] {
     aspect-ratio: 719/680
+}
+.size-3\/5 {
+    width: 60%;
+    height: 60%
 }
 .h-12 {
     height: 3rem
@@ -1130,6 +1164,12 @@ video {
 .rounded-xl {
     border-radius: 0.75rem
 }
+.rounded {
+    border-radius: 0.25rem
+}
+.rounded-md {
+    border-radius: 0.375rem
+}
 .rounded-t-4xl {
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem
@@ -1194,6 +1234,18 @@ video {
 }
 .bg-white\/50 {
     background-color: rgb(255 255 255 / 0.5)
+}
+.bg-indigo-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity))
+}
+.bg-indigo-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(49 46 129 / var(--tw-bg-opacity))
+}
+.bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 .bg-gradient-to-b {
     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
@@ -1291,6 +1343,42 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem
 }
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+}
+.px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem
+}
+.px-3\.5 {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem
+}
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+}
+.py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem
+}
+.px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem
+}
+.py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem
+}
+.px-2\.5 {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+.px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+}
 .pb-16 {
     padding-bottom: 4rem
 }
@@ -1364,6 +1452,14 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem
 }
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
 .font-bold {
     font-weight: 700
 }
@@ -1378,6 +1474,12 @@ video {
 }
 .not-italic {
     font-style: normal
+}
+.leading-6 {
+    line-height: 1.5rem
+}
+.leading-8 {
+    line-height: 2rem
 }
 .tracking-tight {
     letter-spacing: -0.025em
@@ -1415,6 +1517,14 @@ video {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity))
+}
+.text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity))
+}
 .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -1425,6 +1535,11 @@ video {
 .shadow {
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+.shadow-sm {
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 .outline-none {
@@ -1669,6 +1784,14 @@ video {
 .hover\:bg-white\/10:hover {
     background-color: rgb(255 255 255 / 0.1)
 }
+.hover\:bg-indigo-500:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(99 102 241 / var(--tw-bg-opacity))
+}
+.hover\:bg-black:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
 .hover\:text-neutral-200:hover {
     --tw-text-opacity: 1;
     color: rgb(229 229 229 / var(--tw-text-opacity))
@@ -1691,6 +1814,21 @@ video {
 }
 .focus\:ring-neutral-950\/5:focus {
     --tw-ring-color: rgb(10 10 10 / 0.05)
+}
+.focus-visible\:outline:focus-visible {
+    outline-style: solid
+}
+.focus-visible\:outline-2:focus-visible {
+    outline-width: 2px
+}
+.focus-visible\:outline-offset-2:focus-visible {
+    outline-offset: 2px
+}
+.focus-visible\:outline-indigo-600:focus-visible {
+    outline-color: #4f46e5
+}
+.focus-visible\:outline-black:focus-visible {
+    outline-color: #000
 }
 .focus-visible\:ring-1:focus-visible {
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1939,6 +2077,10 @@ video {
     .sm\:py-32 {
         padding-top: 8rem;
         padding-bottom: 8rem
+    }
+    .sm\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
     }
     .sm\:pl-16 {
         padding-left: 4rem

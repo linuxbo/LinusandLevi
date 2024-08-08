@@ -101,6 +101,7 @@ function Header({
   )
 }
 
+
 function NavigationRow({ children }) {
   return (
     <div className="even:mt-px sm:bg-neutral-950">
@@ -126,9 +127,14 @@ function NavigationItem({ href, children }) {
 function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
+      <NavigationRow>
+        <NavigationItem href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start">Book a tour</NavigationItem>
+        <NavigationItem href="https://square.link/u/8qvfBCu8">Rent a bike</NavigationItem>
+      </NavigationRow>
     </nav>
   )
 }
+
 
 function RootLayoutInner({ children }) {
   let panelId = useId()

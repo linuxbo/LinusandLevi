@@ -71,8 +71,8 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start" invert={invert}>
-            Book a tour
+          <Button href="https://forms.gle/Ky3sFJGx1WUMEYYX7" invert={invert}>
+            List a bike
           </Button>
           <button
             ref={toggleRef}
@@ -130,6 +130,11 @@ function Navigation() {
       <NavigationRow>
         <NavigationItem href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start">Book a tour</NavigationItem>
         <NavigationItem href="https://square.link/u/8qvfBCu8">Rent a bike</NavigationItem>
+              </NavigationRow>
+
+      <NavigationRow>
+        <NavigationItem href="https://forms.gle/Ky3sFJGx1WUMEYYX7">List a bike</NavigationItem>
+        <NavigationItem href="https://www.instagram.com/linusandleviadventures/">About us</NavigationItem>
       </NavigationRow>
     </nav>
   )

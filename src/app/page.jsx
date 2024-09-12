@@ -86,7 +86,7 @@ function CaseStudies({ caseStudies }) {
               href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start"
               className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-                Book a tour
+                List a bike
             </a>
           </div>
         </div>
@@ -156,12 +156,12 @@ const team = [
     people: [
       {
         name: 'Linus Chan',
-        role: 'E-bike Poser / Cofounder',
+        role: 'E-bike poser / Cofounder',
         image: { src: imageLinusChan },
       },
       {
         name: 'Levi Prestegard',
-        role: 'Chief Biker / Cofounder',
+        role: 'Chief biker / Cofounder',
         image: { src: imageLeviPrestegard },
       },
  
@@ -232,7 +232,7 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Bicycle tours in Minnesota.
+            Bicycle rentals and tours in Minnesota.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
           We're two University of Minnesota alumni who love biking. Let us be your guides to the best-kept secrets of Minneapolis and beyond, from beautiful urban trails to epic up-north escapades.</p>

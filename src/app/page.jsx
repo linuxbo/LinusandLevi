@@ -83,10 +83,10 @@ function CaseStudies({ caseStudies }) {
          <div className="mx-auto max-w-2xl text-center">
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start"
+              href="https://tables.area120.google.com/u/0/form/bW14nQlPW_MdD-bUnsp4JH/t/a8q0MOJnOpK7zgvvtAVkBf8oOHwdC0Tjqcu8LmVf1_WW8IvOvgzESN88VsioI1x_qp"
               className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-                List a bike
+                Apply to list a bike
             </a>
           </div>
         </div>
@@ -238,6 +238,18 @@ export default async function Home() {
           We're two University of Minnesota alumni who love biking. Let us be your guides to renting e-bikes in Minneapolis and beyond.</p>
 
         </FadeIn>
+            <div className="bg-white">
+         <div className="mx-auto max-w-2xl text-center">
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="https://forms.gle/6Dg5VNDWwiMq7VaA9"
+              className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            >
+                Be the first to know!
+            </a>
+          </div>
+        </div>
+      </div>
       </Container>
       <Team />
       <CaseStudies caseStudies={caseStudies} />

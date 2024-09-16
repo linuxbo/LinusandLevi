@@ -129,11 +129,11 @@ function Navigation() {
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="https://squareup.com/appointments/book/fdbklg4l2je1fv/LVG4MQRFQXTFY/start">Book a tour</NavigationItem>
-        <NavigationItem href="https://square.link/u/8qvfBCu8">Rent a bike</NavigationItem>
+        <NavigationItem href="https://www.google.com/maps/d/edit?mid=1GjmpyZqOx90NmXJ34wG6COVI2WWhftQ&usp=sharing">Rent a bike</NavigationItem>
               </NavigationRow>
 
       <NavigationRow>
-        <NavigationItem href="https://forms.gle/Ky3sFJGx1WUMEYYX7">List a bike</NavigationItem>
+        <NavigationItem href="https://tables.area120.google.com/u/0/form/bW14nQlPW_MdD-bUnsp4JH/t/a8q0MOJnOpK7zgvvtAVkBf8oOHwdC0Tjqcu8LmVf1_WW8IvOvgzESN88VsioI1x_qp">List a bike</NavigationItem>
         <NavigationItem href="https://www.instagram.com/linusandleviadventures/">About us</NavigationItem>
       </NavigationRow>
     </nav>

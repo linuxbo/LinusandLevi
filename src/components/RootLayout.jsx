@@ -71,8 +71,8 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="https://forms.gle/Ky3sFJGx1WUMEYYX7" invert={invert}>
-            List a bike
+          <Button href="https://www.google.com/maps/d/edit?mid=1GjmpyZqOx90NmXJ34wG6COVI2WWhftQ&usp=sharing" invert={invert}>
+            Find a bike!
           </Button>
           <button
             ref={toggleRef}

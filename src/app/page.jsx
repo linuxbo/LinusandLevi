@@ -235,7 +235,7 @@ export default async function Home() {
             Bicycle rentals and tours in Minnesota.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          We're two University of Minnesota alumni who love biking. Let us be your guides to the best-kept secrets of Minneapolis and beyond, from beautiful urban trails to epic up-north escapades.</p>
+          We're two University of Minnesota alumni who love biking. Let us be your guides to renting e-bikes in Minneapolis and beyond.</p>
 
         </FadeIn>
       </Container>

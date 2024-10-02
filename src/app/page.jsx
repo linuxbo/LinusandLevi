@@ -236,20 +236,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
           We're two University of Minnesota alumni who love biking. Let us be your guides to supplying or renting e-bikes in Minneapolis and beyond.</p>
-
         </FadeIn>
-            <div className="bg-white">
-         <div className="mx-auto max-w-2xl text-center">
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="https://forms.gle/6Dg5VNDWwiMq7VaA9"
-              className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
-                Be the first to know!
-            </a>
-          </div>
-        </div>
-      </div>
       </Container>
       <Team />
       <CaseStudies caseStudies={caseStudies} />

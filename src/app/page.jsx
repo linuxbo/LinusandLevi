@@ -71,7 +71,7 @@ function CaseStudies({ caseStudies }) {
   return (
     <>
       <SectionIntro
-        title="Pedal to your happy place"
+        title="Your pocket-sized Minnesota adventures"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -234,7 +234,7 @@ export default async function Home() {
             Tours in Minnesota.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          We're two University of Minnesota alumni who love biking. Let us be your guides to Minneapolis and beyond.</p>
+          We're two University of Minnesota alumni who love our city. Let us be your guides to Minneapolis and beyond.</p>
         </FadeIn>
       </Container>
       <Team />

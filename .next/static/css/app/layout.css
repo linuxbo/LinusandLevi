@@ -951,6 +951,12 @@ video {
 .w-screen {
     width: 100vw
 }
+.w-0 {
+    width: 0px
+}
+.w-8 {
+    width: 2rem
+}
 .\!max-w-none {
     max-width: none !important
 }
@@ -1241,6 +1247,12 @@ video {
 }
 .stroke-neutral-950\/5 {
     stroke: rgb(10 10 10 / 0.05)
+}
+.stroke-neutral-950 {
+    stroke: #0a0a0a
+}
+.stroke-white {
+    stroke: #fff
 }
 .object-cover {
     -o-object-fit: cover;
@@ -1757,6 +1769,9 @@ video {
 }
 .group:nth-child(even) .group-even\:left-0 {
     left: 0px
+}
+.group\/logo:hover .group-hover\/logo\:w-8 {
+    width: 2rem
 }
 .group:hover .group-hover\:fill-neutral-200 {
     fill: #e5e5e5

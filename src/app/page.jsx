@@ -75,18 +75,17 @@ function CaseStudies({ caseStudies }) {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is not the answer to the world’s greatest
-          challenges. Let's just go outside and have some fun!
+        We sell compact, personalized maps that are your perfect companion for a whirlwind tour of Minnesota. Discover iconic landmarks, charming towns, and breathtaking natural wonders in just one day. 
         </p>
       </SectionIntro>
     <div className="bg-white">
          <div className="mx-auto max-w-2xl text-center">
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="https://tables.area120.google.com/u/0/form/bW14nQlPW_MdD-bUnsp4JH/t/a8q0MOJnOpK7zgvvtAVkBf8oOHwdC0Tjqcu8LmVf1_WW8IvOvgzESN88VsioI1x_qp"
+              href="https://dollarmaps.gumroad.com"
               className="rounded-full bg-black px-20 py-10 text-3xl font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-                Apply to list a bike
+                Learn more about Minnesota!
             </a>
           </div>
         </div>
@@ -232,10 +231,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Electric bicycle rentals in Minnesota.
+            Tours in Minnesota.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          We're two University of Minnesota alumni who love biking. Let us be your guides to supplying or renting e-bikes in Minneapolis and beyond.</p>
+          We're two University of Minnesota alumni who love biking. Let us be your guides to Minneapolis and beyond.</p>
         </FadeIn>
       </Container>
       <Team />

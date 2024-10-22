@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Studio',
-    default: 'Linus and Levi - Bicycle tours based in Minneapolis',
+    default: 'Linus and Levi - Tech-enabled tours based in Minneapolis',
   },
 }
 

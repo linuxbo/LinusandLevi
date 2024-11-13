@@ -231,10 +231,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Tours in Minnesota.
+            Rent your neighbor's ebike in Minnesota. Go for an adventure!
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          We're two University of Minnesota alumni who love our city. Let us be your guides to Minneapolis and beyond.</p>
+          We're two University of Minnesota alumni who love our city. Let us be your electric bike guides to Minneapolis and beyond.</p>
         </FadeIn>
       </Container>
       <Team />
